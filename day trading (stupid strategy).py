@@ -50,7 +50,7 @@ for stock in stock_list:
     for date in date_series:
         
         stock_price = yf.download( 
-            tickers = 'qqq',
+            tickers = stock,
             interval = "1m",
             end = date,
             start = date - datetime.timedelta(days=1)
