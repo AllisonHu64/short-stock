@@ -7,14 +7,11 @@
 # tools for all the running delta
 # import all the resource
 import pandas as pd
-from pandas_datareader import data as pdr
 import numpy as np
 import requests
 from datetime import datetime as dt
 import datetime
 import yfinance as yf
-import time
-import urllib.request
 
 
 # In[2]:
@@ -22,7 +19,7 @@ import urllib.request
 
 # run the strategy on baidu's stock prices from 2005/12/30 to 2020/01/15
 # the sequence Open High Low Close
-
+# change it to your folder name please
 folder_path = '/Users/allison/Desktop/BIDU/'
 
 
